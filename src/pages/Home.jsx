@@ -9,7 +9,7 @@ import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
 import Gallery from '../components/Gallery';
 import './Home.css'
-import Form from '../components/Form';
+// import Form from '../components/Form';
 
 export default function Home() {
     return (
