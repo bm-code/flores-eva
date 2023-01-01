@@ -7,6 +7,31 @@
     background-color: var(--no-white);
 }
 
+/* Ramos de flores */
+
+.servicios__flores-desc {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ramos-list {
+    flex: 0 0 50%;
+}
+
+.servicios__flores-img {
+    flex: 0 0 50%;
+    max-width: 130px;
+}
+
+.servicios__flores-img-2 {
+    max-width: 70%;
+    margin-top: -100px;
+    margin-left: -20px;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .ramos-list__item {
     margin: 15px 0;
 }
@@ -14,6 +39,8 @@
 .ramos-list__item a {
     margin-right: 5px;
     transition: margin-right 0.4s;
+    text-decoration: none;
+    color: var(--black);
 }
 
 .ramos-list__item a:hover {
@@ -34,5 +61,257 @@
     width: 180px;
     background-color: #BFBFBF;
     margin: 10px 0;
+}
 
+/* Plantas */
+
+.servicios__plantas {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2em;
+}
+
+.servicios__plantas-img {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+}
+
+.servicios__plantas-img-1 {
+    align-self: flex-end;
+    margin-left: 10px;
+}
+
+.servicios__plantas-img-2 {
+    margin-right: 10px;
+}
+
+/* Funerarios */
+
+.servicios__funerarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios__funerarios-center img {
+    margin: auto;
+}
+
+.servicios__funerarios-right,
+.servicios__funerarios-left {
+    display: none;
+}
+
+/* Gallery */
+
+.gallery {
+    margin: 2em 20px;
+}
+
+.gallery h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Contacto */
+
+.contact {
+    padding: 20px;
+    background-color: var(--no-white);
+}
+
+.contact h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact__card {
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-bottom: 2em;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.contact__details {
+    padding: 1.5em 1em;
+}
+
+.contact__details li {
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.contact__details li svg {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+/************** TABLET ************/
+
+@media screen and (min-width: 768px) {
+
+    .ramos-list {
+        align-self: center;
+    }
+
+    .servicios__flores-img {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .servicios__plantas-desc p,
+    .servicios__funerarios p {
+        max-width: 500px;
+    }
+
+    .servicios__plantas-img {
+        max-width: 250px;
+    }
+
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+
+    .contact__card {
+        margin: auto 15px;
+    }
+}
+
+/*************** ESCRITORIO **************/
+
+@media screen and (min-width: 992px) {
+
+    /* Ramos */
+
+    .servicios__flores {
+        margin-top: 6em;
+    }
+
+    .servicios__flores-desc {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .ramos-list {
+        align-self: flex-start;
+        flex: 0 0 40%;
+    }
+
+    .ramos-list__item::after,
+    .ramos-list__item:first-child::before {
+        width: 300px;
+    }
+
+    .servicios__flores-img {
+        max-width: 230px;
+        display: flex;
+        margin: 0;
+    }
+
+    .servicios__flores-img-1,
+    .servicios__flores-img-2 {
+        max-width: none;
+        flex-direction: 0 0 30%;
+    }
+
+    .servicios__flores-img-2 {
+        margin: 0;
+        margin-left: 1em;
+        box-shadow: none;
+        align-self: flex-start;
+    }
+
+    /* Plantas */
+
+    .servicios__plantas {
+        margin-top: 6em;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .servicios__plantas-img {
+        max-width: none;
+        flex: 0 0 40%;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .servicios__plantas-img-1,
+    .servicios__plantas-img-2 {
+        margin: 0;
+    }
+
+    .servicios__plantas-img-1 {
+        align-self: flex-start;
+        margin-right: 15px;
+    }
+
+    .servicios__plantas-desc {
+        flex: 0 0 40%;
+    }
+
+    /* Funerarios */
+
+    .servicios__funerarios {
+        margin: 6em 0;
+    }
+
+    .servicios__funerarios-right,
+    .servicios__funerarios-left {
+        display: block;
+    }
+
+    .servicios__funerarios {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .servicios__funerarios-left,
+    .servicios__funerarios-center {
+        margin-right: 50px;
+    }
+
+    .servicios__funerarios-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .servicios__funerarios-center img {
+        margin: 0;
+    }
+
+
+
+    /* Galería */
+
+    .gallery {
+        margin: 4em 20px;
+    }
+
+    /* Contacto */
+
+    .cards-container {
+        justify-content: center;
+    }
+
+    .contact__card {
+        margin: auto 30px;
+    }
 }

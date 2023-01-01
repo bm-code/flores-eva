@@ -6,7 +6,7 @@ import './Header.css';
 export default function Header() {
     return (
         <header>
-            <div className="header">
+            <div className="header container">
                 <div className="header__logo">
                     <img src={logo} alt="Logo de Flores Eva. Tienda de Flores y accesorios en Montilla." />
                 </div>

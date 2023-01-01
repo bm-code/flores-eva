@@ -12,7 +12,7 @@ export default function Gallery() {
     ]
 
     return (
-        <div className="gallery">
+        <div className="gallery__slides">
             <Carousel slides={slides} autoplay={false} interval={1000} />
         </div>
     )
