@@ -14,9 +14,9 @@ export default function Footer() {
                     <div className="footer__menu">
                         <h4>Menú</h4>
                         <ul>
-                            <li><a>Inicio</a></li>
-                            <li><a>Servicios</a></li>
-                            <li><a>Contacto</a></li>
+                            <li><a href='https://floreseva.netlify.app/'>Inicio</a></li>
+                            <li><a href='https://floreseva.netlify.app/'>Servicios</a></li>
+                            <li><a href='https://floreseva.netlify.app/'>Contacto</a></li>
                         </ul>
                     </div>
                     <div className="footer__menu">
@@ -37,7 +37,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer__text">
-                <p>Flores Eva © {currentYear} | Developed by <a href="https://benimorales.com/" target='_blank' rel='nofollow noopener'>Beni Morales</a> </p>
+                <p>Flores Eva © {currentYear} | Developed by <a href="https://benimorales.com/" target='_blank' without rel="noopener noreferrer">Beni Morales</a> </p>
             </div>
         </footer>
     )

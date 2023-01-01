@@ -29,10 +29,10 @@ export default function Home() {
                             <div className="ramos-list">
                                 <h3 className='title__after'>Ramos de flores</h3>
                                 <ul>
-                                    <li className="ramos-list__item"><a href="">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="">Ramos de regalo </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
