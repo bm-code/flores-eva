@@ -1,0 +1,158 @@
+header {
+    border-top: 5px solid var(--brown);
+    height: 90px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    order: 1;
+}
+
+.header__logo {
+    order: 2;
+}
+
+.header__logo img {
+    max-width: 120px;
+}
+
+.header__whatsapp {
+    order: 3;
+}
+
+.header__whatsapp-link {
+    padding: 8px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger__container {
+    cursor: pointer;
+}
+
+.burger__container div {
+    width: 30px;
+    height: 2px;
+    background-color: var(--brown);
+    margin: 4px 0;
+    transition: all 0.4s;
+}
+
+.header__nav {
+    height: calc(100vh - 90px);
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+    display: none;
+}
+
+#burger {
+    display: none;
+}
+
+#burger:checked~.header__nav {
+    display: block;
+}
+
+#burger:checked~.burger__container div:first-child {
+    transform: rotate(45deg) translateY(9px);
+}
+
+#burger:checked~.burger__container div:nth-child(2) {
+    transform: translateX(-100px);
+}
+
+#burger:checked~.burger__container div:last-child {
+    transform: rotate(-45deg) translateY(-9px);
+}
+
+
+.header__menu-items {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.menu__item {
+    margin: 30px auto;
+}
+
+.menu__item a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Escritorio */
+@media screen and (min-width: 768px) {
+
+    .burger__container {
+        display: none;
+    }
+
+    .header {
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__nav {
+        position: static;
+        display: flex;
+        height: 30px;
+        background-color: transparent;
+    }
+
+    .header__menu-items {
+        flex-direction: row;
+        color: var(--black);
+        font-size: 20px;
+    }
+
+    .header__menu {
+        order: 2;
+    }
+
+    .header__logo {
+        order: 1;
+    }
+
+
+    .header__whatsapp {
+        order: 3;
+    }
+
+    .header__logo img {
+        max-width: 120px;
+    }
+
+    .header__menu-items {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu__item {
+        margin-right: 1.5em;
+    }
+
+    .menu__item a {
+        color: var(--black);
+    }
+
+}

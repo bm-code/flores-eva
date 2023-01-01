@@ -1,0 +1,37 @@
+.home__cabecera {
+    text-align: center;
+}
+
+.servicios {
+    padding: 20px;
+    background-color: var(--no-white);
+}
+
+.ramos-list__item {
+    margin: 15px 0;
+}
+
+.ramos-list__item a {
+    margin-right: 5px;
+    transition: margin-right 0.4s;
+}
+
+.ramos-list__item a:hover {
+    margin-right: 15px;
+}
+
+.ramos-list__item svg {
+    transform: translateY(4px);
+
+}
+
+
+.ramos-list__item::after,
+.ramos-list__item:first-child::before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 180px;
+    background-color: #BFBFBF;
+    margin: 10px 0;
+}
