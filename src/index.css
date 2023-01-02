@@ -158,7 +158,7 @@ h3,
 h4,
 h5 {
   font-family: var(--title);
-  color: var(--black);
+  color: var(--brown);
 }
 
 h1 {
@@ -181,7 +181,7 @@ p,
 a,
 li,
 button {
-  color: var(--black);
+  color: var(--brown);
 }
 
 /* Tamaños del contenido*/
@@ -220,7 +220,7 @@ button.btn .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: var(--black);
+  background: var(--brown);
   border-radius: 1.625rem;
 }
 
@@ -262,7 +262,7 @@ button.btn .btn-text {
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: var(--black);
+  color: var(--brown);
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
