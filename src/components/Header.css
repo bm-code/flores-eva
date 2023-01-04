@@ -21,6 +21,7 @@ header {
 
 .header__logo img {
     max-width: 120px;
+    box-shadow: none;
 }
 
 .header__whatsapp {

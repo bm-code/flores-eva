@@ -1,3 +1,8 @@
+img {
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
 .home__cabecera {
     text-align: center;
 }
@@ -230,7 +235,6 @@
     .servicios__flores-img-2 {
         margin: 0;
         margin-left: 1em;
-        box-shadow: none;
         align-self: flex-start;
     }
 
@@ -256,9 +260,9 @@
         margin: 0;
     }
 
-    .servicios__plantas-img-1 {
+    .servicios__plantas-img-2 {
         align-self: flex-start;
-        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .servicios__plantas-desc {

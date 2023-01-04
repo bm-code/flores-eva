@@ -1,10 +1,12 @@
 import React from 'react';
 import imgCabecera from '../assets/img-home.jpg';
-import imgTest from '../assets/img-test.svg';
-import imgTest2 from '../assets/img-test2.svg';
-import imgTest3 from '../assets/img-test3.svg';
-import imgTest4 from '../assets/img-test4.svg';
-import imgTest5 from '../assets/img-test5.svg';
+import planta1 from '../assets/planta-1.jpg';
+import planta2 from '../assets/planta-2.jpg';
+import imgTest from '../assets/flores-1.jpg';
+import imgTest2 from '../assets/flores-2.jpg';
+import imgTest3 from '../assets/funerarios-1.jpg';
+import imgTest4 from '../assets/funerarios-2.jpg';
+import imgTest5 from '../assets/funerarios-3.jpg';
 import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
 import Gallery from '../components/Gallery';
@@ -29,10 +31,10 @@ export default function Home() {
                             <div className="ramos-list">
                                 <h3 className='title__after'>Ramos de flores</h3>
                                 <ul>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de regalo </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Rosas </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Bouquet </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Nacimientos </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos para cumpleaños </a><BsArrowRight /></li>
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
@@ -43,8 +45,8 @@ export default function Home() {
                     </div>
                     <div className="servicios__plantas">
                         <div className="servicios__plantas-img">
-                            <img className='servicios__plantas-img-1' src={imgTest2} alt="" />
-                            <img className='servicios__plantas-img-2' src={imgTest} alt="" />
+                            <img className='servicios__plantas-img-1' src={planta1} alt="" />
+                            <img className='servicios__plantas-img-2' src={planta2} alt="" />
                         </div>
                         <div className="servicios__plantas-desc">
                             <h3 className='title__before'>Plantas</h3>
