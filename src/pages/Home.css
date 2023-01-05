@@ -3,6 +3,11 @@ img {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Brillo provisional imagen flores 2 */
+img.servicios__flores-img-2 {
+    filter: brightness(1.2);
+}
+
 .home__cabecera {
     text-align: center;
 }

@@ -7,6 +7,8 @@ import imgTest2 from '../assets/flores-2.jpg';
 import imgTest3 from '../assets/funerarios-1.jpg';
 import imgTest4 from '../assets/funerarios-2.jpg';
 import imgTest5 from '../assets/funerarios-3.jpg';
+import bodas1 from '../assets/bodas-1.jpg'
+import bodas2 from '../assets/bodas-2.jpg'
 import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
 import Gallery from '../components/Gallery';
@@ -59,6 +61,25 @@ export default function Home() {
                             </button>
                         </div>
                     </div>
+
+                    <div className="servicios__flores">
+                        <div className="servicios__flores-desc">
+                            <div className="ramos-list">
+                                <h3 className='title__after'>Flores para Bodas</h3>
+                                <ul>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Rosas </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Bouquet </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Nacimientos </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos para cumpleaños </a><BsArrowRight /></li>
+                                </ul>
+                            </div>
+                            <div className="servicios__flores-img">
+                                <img className='servicios__flores-img-1' src={bodas1} alt="" />
+                                <img className='servicios__flores-img-2' src={bodas2} alt="" />
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="servicios__funerarios">
                         <div className="servicios__funerarios-left">
                             <img src={imgTest3} alt="" />
