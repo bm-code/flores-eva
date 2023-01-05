@@ -50,7 +50,7 @@ export default function Home() {
                         </div>
                         <div className="servicios__plantas-desc">
                             <h3 className='title__before'>Plantas</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium placeat vero nulla accusamus iusto. Corrupti quae accusantium harum nihil culpa?</p>
+                            <p>Viste tu casa con color y naturaleza y da un toque de vida a tu entorno. Aporta beneficios para la salud y decoración natural para el hogar.</p>
                             <button className="btn">
                                 <span className="circle" aria-hidden="true">
                                     <span className="icon arrow"></span>
@@ -65,7 +65,7 @@ export default function Home() {
                         </div>
                         <div className="servicios__funerarios-center">
                             <h3 className='title__after'>Funerarios</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium placeat vero nulla accusamus iusto. Corrupti quae accusantium harum nihil culpa?</p>
+                            <p>Puedes tener total confianza en Flores Eva para dar el pésame en estos momentos tan difíciles. Nuestros arreglos fúnebres tratan de reflejar de la mejor forma tus condolencias.</p>
                             <button className="btn">
                                 <span className="circle" aria-hidden="true">
                                     <span className="icon arrow"></span>
