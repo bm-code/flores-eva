@@ -21,7 +21,7 @@ export default function Home() {
             <section className="home__cabecera">
                 <h1>Flores Eva</h1>
                 <div className="home__img">
-                    <img src={imgCabecera} alt="imagen de cabecera de la página principal. Ramo de flores para regalar." />
+                    <img loading="lazy" src={imgCabecera} alt="imagen de cabecera de la página principal. Ramo de flores para regalar." />
                 </div>
             </section>
 
@@ -40,15 +40,15 @@ export default function Home() {
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
-                                <img className='servicios__flores-img-1' src={imgTest} alt="" />
-                                <img className='servicios__flores-img-2' src={imgTest2} alt="" />
+                                <img loading="lazy" className='servicios__flores-img-1' src={imgTest} alt="" />
+                                <img loading="lazy" className='servicios__flores-img-2' src={imgTest2} alt="" />
                             </div>
                         </div>
                     </div>
                     <div className="servicios__plantas">
                         <div className="servicios__plantas-img">
-                            <img className='servicios__plantas-img-1' src={planta1} alt="" />
-                            <img className='servicios__plantas-img-2' src={planta2} alt="" />
+                            <img loading="lazy" className='servicios__plantas-img-1' src={planta1} alt="" />
+                            <img loading="lazy" className='servicios__plantas-img-2' src={planta2} alt="" />
                         </div>
                         <div className="servicios__plantas-desc">
                             <h3 className='title__before'>Plantas</h3>
@@ -67,22 +67,22 @@ export default function Home() {
                             <div className="ramos-list">
                                 <h3 className='title__after'>Flores para Bodas</h3>
                                 <ul>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Rosas </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Bouquet </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Nacimientos </a><BsArrowRight /></li>
-                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos para cumpleaños </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de Novia </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Decoración para la ceremonia </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Decoración floral para el banquete </a><BsArrowRight /></li>
+                                    <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Complementos </a><BsArrowRight /></li>
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
-                                <img className='servicios__flores-img-1' src={bodas1} alt="" />
-                                <img className='servicios__flores-img-2' src={bodas2} alt="" />
+                                <img loading="lazy" className='servicios__flores-img-1' src={bodas1} alt="" />
+                                <img loading="lazy" className='servicios__flores-img-2' src={bodas2} alt="" />
                             </div>
                         </div>
                     </div>
 
                     <div className="servicios__funerarios">
                         <div className="servicios__funerarios-left">
-                            <img src={imgTest3} alt="" />
+                            <img loading="lazy" src={imgTest3} alt="" />
                         </div>
                         <div className="servicios__funerarios-center">
                             <h3 className='title__after'>Funerarios</h3>
@@ -93,10 +93,10 @@ export default function Home() {
                                 </span>
                                 <span className="btn-text">Ver más</span>
                             </button>
-                            <img src={imgTest4} alt="" />
+                            <img loading="lazy" src={imgTest4} alt="" />
                         </div>
                         <div className="servicios__funerarios-right">
-                            <img src={imgTest5} alt="" />
+                            <img loading="lazy" src={imgTest5} alt="" />
                         </div>
                     </div>
                 </div>
