@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg'
 
 export default function Links() {
   return (
-    <section>
+    <section className='links-page'>
         <img src={logo} alt="Logo de Flores Eva" />
         <div className='links'>
             <ul>
