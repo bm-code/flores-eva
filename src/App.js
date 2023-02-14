@@ -1,20 +1,19 @@
 import React from 'react';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Home from "./pages/Home";
-// import Servicios from "./pages/Servicios"
-// import Contacto from "./pages/Contacto"
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Servicios from "./pages/Servicios"
+import Contacto from "./pages/Contacto"
 // import Header from './components/Header'
 // import Footer from './components/Footer';
-// import Tienda from './pages/Tienda/Tienda';
+import Tienda from './pages/Tienda/Tienda';
 import Links from './pages/Links';
 
 
 function App() {
   return (
     <div className="App">
-      <Links />
-      {/* <BrowserRouter>
-        <Header />
+      <BrowserRouter>
+        {/* <Header /> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/servicios' element={<Servicios />} />
@@ -23,7 +22,7 @@ function App() {
           <Route path='/links' element={<Links />} />
         </Routes>
       </BrowserRouter>
-      <Footer /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
