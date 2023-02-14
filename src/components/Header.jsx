@@ -24,6 +24,8 @@ export default function Header() {
                             </Link></li>
                             <li className="menu__item"><Link to="/servicios">Servicios</Link></li>
                             <li className="menu__item"><Link to="/contacto">Contacto</Link></li>
+                            <li className="menu__item"><Link to="/tienda">TIENDA</Link></li>
+                            <li className='menu__item'><a href="http://localhost:8888/flores-eva/tienda/">Tienda</a></li>
                         </ul>
                     </nav>
                 </div>
