@@ -9,7 +9,9 @@ export default function Header() {
         <header>
             <div className="header container">
                 <div className="header__logo">
-                    <Link to='/'><img src={logo} alt="Logo de Flores Eva. Tienda de Flores y accesorios en Montilla." /></Link>
+                    <Link to='/'>
+                        <img src={logo} alt="Logo de Flores Eva. Tienda de Flores y accesorios en Montilla." />
+                    </Link>
                 </div>
                 <div className="header__menu">
                     <input type="checkbox" id="burger" />

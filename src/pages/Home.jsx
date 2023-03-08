@@ -9,7 +9,7 @@ import imgTest4 from '../assets/funerarios-2.jpg';
 import imgTest5 from '../assets/funerarios-3.jpg';
 import bodas1 from '../assets/bodas-1.jpg'
 import bodas2 from '../assets/bodas-2.jpg'
-import { BsArrowRight } from 'react-icons/bs'
+// import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
 import Gallery from '../components/Gallery';
 import './Home.css'
@@ -32,11 +32,17 @@ export default function Home() {
                         <div className="servicios__flores-desc">
                             <div className="ramos-list">
                                 <h3 className='title__after'>Ramos de flores</h3>
-                                <ul>
+                                {/* <ul>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Rosas </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Bouquet </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Nacimientos </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos para cumpleaños </a><BsArrowRight /></li>
+                                </ul> */}
+                                <ul>
+                                    <li className="ramos-list__item">Rosas</li>
+                                    <li className="ramos-list__item">Bouquet</li>
+                                    <li className="ramos-list__item">Nacimientos</li>
+                                    <li className="ramos-list__item">Ramos para cumpleaños</li>
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
@@ -53,12 +59,12 @@ export default function Home() {
                         <div className="servicios__plantas-desc">
                             <h3 className='title__before'>Plantas</h3>
                             <p>Viste tu casa con color y naturaleza y da un toque de vida a tu entorno. Aporta beneficios para la salud y decoración natural para el hogar.</p>
-                            <button className="btn">
+                            {/* <button className="btn">
                                 <span className="circle" aria-hidden="true">
                                     <span className="icon arrow"></span>
                                 </span>
                                 <span className="btn-text">Ver más</span>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 
@@ -66,11 +72,17 @@ export default function Home() {
                         <div className="servicios__flores-desc">
                             <div className="ramos-list">
                                 <h3 className='title__after'>Flores para Bodas</h3>
-                                <ul>
+                                {/* <ul>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Ramos de Novia </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Decoración para la ceremonia </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Decoración floral para el banquete </a><BsArrowRight /></li>
                                     <li className="ramos-list__item"><a href="https://floreseva.netlify.app/">Complementos </a><BsArrowRight /></li>
+                                </ul> */}
+                                <ul>
+                                    <li className="ramos-list__item"> Ramos de Novia</li>
+                                    <li className="ramos-list__item"> Decoración para la ceremonia</li>
+                                    <li className="ramos-list__item"> Decoración floral para el banquete</li>
+                                    <li className="ramos-list__item"> Complementos</li>
                                 </ul>
                             </div>
                             <div className="servicios__flores-img">
@@ -87,12 +99,12 @@ export default function Home() {
                         <div className="servicios__funerarios-center">
                             <h3 className='title__after'>Funerarios</h3>
                             <p>Puedes tener total confianza en Flores Eva para dar el pésame en estos momentos tan difíciles. Nuestros arreglos fúnebres tratan de reflejar de la mejor forma tus condolencias.</p>
-                            <button className="btn">
+                            {/* <button className="btn">
                                 <span className="circle" aria-hidden="true">
                                     <span className="icon arrow"></span>
                                 </span>
                                 <span className="btn-text">Ver más</span>
-                            </button>
+                            </button> */}
                             <img loading="lazy" src={imgTest4} alt="" />
                         </div>
                         <div className="servicios__funerarios-right">
