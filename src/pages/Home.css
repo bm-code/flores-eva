@@ -3,6 +3,11 @@ img {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
+.logo-home {
+    box-shadow: none;
+    margin: 10px auto;
+}
+
 /* Brillo provisional imagen flores 2 */
 img.servicios__flores-img-2 {
     filter: brightness(1.2);
@@ -165,6 +170,20 @@ img.servicios__flores-img-2 {
 .contact__details li svg {
     font-size: 22px;
     margin-right: 10px;
+}
+
+.sticky__whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+}
+
+.sticky__whatsapp-link {
+    padding: 6px 10px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 
 /************** TABLET ************/

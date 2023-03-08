@@ -1,5 +1,6 @@
 import React from 'react';
 import imgCabecera from '../assets/img-home.jpg';
+import logo from '../assets/logo.svg';
 import planta1 from '../assets/planta-1.jpg';
 import planta2 from '../assets/planta-2.jpg';
 import imgTest from '../assets/flores-1.jpg';
@@ -9,9 +10,10 @@ import imgTest4 from '../assets/funerarios-2.jpg';
 import imgTest5 from '../assets/funerarios-3.jpg';
 import bodas1 from '../assets/bodas-1.jpg'
 import bodas2 from '../assets/bodas-2.jpg'
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 // import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
-import Gallery from '../components/Gallery';
+// import Gallery from '../components/Gallery';
 import './Home.css'
 // import Form from '../components/Form';
 
@@ -19,7 +21,8 @@ export default function Home() {
     return (
         <>
             <section className="home__cabecera">
-                <h1>Flores Eva</h1>
+                {/* <h1>Flores Eva</h1> */}
+                <img className='logo-home' src={logo} alt="Logo flores eva" />
                 <div className="home__img">
                     <img loading="lazy" src={imgCabecera} alt="imagen de cabecera de la página principal. Ramo de flores para regalar." />
                 </div>
@@ -113,10 +116,10 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="gallery">
+            {/* <section className="gallery">
                 <h3>Nuestros productos</h3>
                 <Gallery />
-            </section>
+            </section> */}
             <section className="contact">
                 <h3>Contacta con nosotros</h3>
                 <div className="cards-container">
@@ -146,6 +149,11 @@ export default function Home() {
                     <Form />
                 </div> */}
             </section>
+            <div className="sticky__whatsapp">
+                <a className="sticky__whatsapp-link" href="https://api.whatsapp.com/send?phone=+34629562610&text=Hola,%20quiero%20solicitar%20informaci%C3%B3n" rel="noopener noreferrer" target="_blank">
+                    <AiOutlineWhatsApp size={32} color='var(--brown)' />
+                </a>
+            </div>
         </>
     )
 }
