@@ -128,8 +128,8 @@ export default function Home() {
                             <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.9684261913458!2d-4.64800782440376!3d37.579361172035384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1482aa3c4abb%3A0xbb0259c66dc97e7a!2sFlores%20Eva%20S.L.!5e0!3m2!1ses!2ses!4v1671960949565!5m2!1ses!2ses" width="300" height="150" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <ul className='contact__details'>
-                            <li><TbLocation /> Calle Ciudad de Sevilla Nº 2</li>
-                            <li><TbDeviceMobile /> 957 651 373</li>
+                            <li><TbLocation />Avda de María Auxiliadora Nº 18 </li>
+                            <li><TbDeviceMobile /> 957 657 022</li>
                             <li><TbMail /> info@floreseva.com</li>
                         </ul>
                     </div>
@@ -138,8 +138,8 @@ export default function Home() {
                             <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.5291380252847!2d-4.64023972440323!3d37.589703972032545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d137885f62285%3A0x88e45dd7914719d7!2sFlores%20Eva%20S.L.!5e0!3m2!1ses!2ses!4v1671961423768!5m2!1ses!2ses" width="300" height="150" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <ul className='contact__details'>
-                            <li><TbLocation /> Avda de María Auxiliadora Nº 18</li>
-                            <li><TbDeviceMobile /> 957 567 022</li>
+                            <li><TbLocation />Calle Ciudad de Sevilla Nº 2 </li>
+                            <li><TbDeviceMobile />957 651 373 </li>
                             <li><TbMail /> info@floreseva.com</li>
                         </ul>
                     </div>
