@@ -130,7 +130,7 @@ export default function Home() {
                         <ul className='contact__details'>
                             <li><TbLocation />Avda de María Auxiliadora Nº 18 </li>
                             <li><TbDeviceMobile /> 957 657 022</li>
-                            <li><TbMail /> info@floreseva.com</li>
+                            <li><TbMail />info@floreseva.com</li>
                         </ul>
                     </div>
                     <div className="contact__card tienda2">
