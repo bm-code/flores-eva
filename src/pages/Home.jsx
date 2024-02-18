@@ -121,7 +121,7 @@ export default function Home() {
                 <Gallery />
             </section> */}
             <section className="contact">
-                <h3>Contacta con nosotros</h3>
+                <h3>Contacta con nosotros.</h3>
                 <div className="cards-container">
                     <div className="contact__card tienda1">
                         <div className="map">
