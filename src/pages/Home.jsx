@@ -10,6 +10,7 @@ import imgTest4 from '../assets/funerarios-2.jpg';
 import imgTest5 from '../assets/funerarios-3.jpg';
 import bodas1 from '../assets/bodas-1.jpg'
 import bodas2 from '../assets/bodas-2.jpg'
+import ue from '../assets/ue.png'
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 // import { BsArrowRight } from 'react-icons/bs'
 import { TbLocation, TbDeviceMobile, TbMail } from 'react-icons/tb';
@@ -148,6 +149,11 @@ export default function Home() {
                 {/* <div className="contact__form">
                     <Form />
                 </div> */}
+            </section>
+
+            <section className="kit-digital">
+                <img className='kit-digital__img' src={ue} alt="Logo Financiación" />
+                <p>Financiado por la Unión Europea-NextGeneration EU</p>
             </section>
             <div className="sticky__whatsapp">
                 <a className="sticky__whatsapp-link" href="https://api.whatsapp.com/send?phone=+34629562610&text=Hola,%20quiero%20solicitar%20informaci%C3%B3n" rel="noopener noreferrer" target="_blank">
